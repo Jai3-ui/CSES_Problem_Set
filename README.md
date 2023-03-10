@@ -19,7 +19,7 @@ Once you have generated the output file, you can run the program using the follo
 
 Replace <output_file_name> with the name of the output file you have generated. For example, if you have generated an output file named 1083.out, you can run the program using the following command:
 
-./1083.out
+./1083.out .
 
 # Contributing 
 If you have a better solution to any of the problems or if you find any mistake in any of the solutions, feel free to contribute. You can fork the repository, make the changes and create a pull request.
