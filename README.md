@@ -1,2 +1,4 @@
-# CSES_Problem_Set
-The CSES Problem Set is a collection of algorithmic programming problems. The goal of the project is to create a comprehensive high quality problem set for learning algorithmic programming. The current collection has 300 problems, and new problems will be gradually added.
+# CSES Problem Set 
+This repository contains solutions for the CSES Problem Set written in C++.
+# About CSES Problem Set 
+CSES Problem Set is a collection of algorithmic programming problems. The problems are divided into different categories such as introductory problems, sorting and searching, dynamic programming, graph algorithms, etc. The problems are available in English and Finnish languages.
