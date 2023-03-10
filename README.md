@@ -21,7 +21,7 @@ Replace <output_file_name> with the name of the output file you have generated. 
 
 ./1083.out
 
-#Contributing 
+# Contributing 
 If you have a better solution to any of the problems or if you find any mistake in any of the solutions, feel free to contribute. You can fork the repository, make the changes and create a pull request.
 
 
