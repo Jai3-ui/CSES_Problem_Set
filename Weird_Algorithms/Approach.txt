@@ -1,0 +1,17 @@
+The code takes given in "1001.cpp"  takes an integer n as input, and applies the Collatz conjecture to it. 
+
+The Collatz conjecture is a famous unsolved problem in mathematics that states that if you take any positive integer n 
+and repeatedly apply the following operations, you will eventually end up at 1:
+(1) If n is even, divide it by 2
+(2) If n is odd, multiply it by 3 and add 1 .
+
+The function solve takes the input n and applies the Collatz conjecture to it until it reaches 1. 
+
+The steps taken to reach 1 are stored in a vector called weird, which is printed at the end of the function.
+
+The steps are stored in the weird vector by repeatedly checking if n is odd or even using the bitwise AND operator &. 
+If n is odd, it is pushed to the vector, and then it is multiplied by 3 and added by 1 to get the next value of n. 
+If n is even, it is pushed to the vector, and then it is divided by 2 to get the next value of n.
+
+Finally, the vector weird is printed using a range-based for loop that iterates over each element in the vector 
+and prints it to the console.
