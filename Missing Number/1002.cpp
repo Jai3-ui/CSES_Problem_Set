@@ -13,6 +13,13 @@ void solve(){
         arr[n-1]=1;
     }
 
+    for(int i=0;i<num;i++){
+        if(arr[i]==0){
+            cout<<i+1<<endl;
+            break;
+        }
+    }
+
     
 }
 
