@@ -1,0 +1,18 @@
+The program defines a function called solve() that takes no arguments and returns no values. Inside this function, it first reads a string from standard input using the cin object.
+
+Then, it checks the length of the string using the size() method of the string object. If the length of the string is equal to 1, it prints 1 and returns.
+
+Otherwise, it initializes three variables maxi, i, and j to 1, 0, and 1, respectively. maxi will store the length of the longest substring with non-repeating characters found so far, while i and j are pointers to the start and end of the current substring being considered.
+
+The program then enters a loop that continues as long as j is less than the length of the string. Inside the loop, it checks if the character at i is the same as the character at j. If they are the same, it increments j and updates maxi to the maximum of its current value and the difference between j and i.
+
+If the characters at i and j are different, the program updates maxi to the maximum of its current value and the difference between j and i, sets i to j, and increments j.
+
+Once the loop finishes, the program prints the value of maxi, which represents the length of the longest substring with non-repeating characters in the input string.
+
+Finally, the program defines a main() function that simply calls the solve() function and returns 0.
+
+
+
+
+
