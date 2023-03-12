@@ -1,3 +1,5 @@
+Approach
+
 This code implements an algorithm to find the missing number from an array of size n-1, which contains all the integers from 1 to n except for one.
 
 The approach is based on the idea of marking visited elements in the array. To do this, the program initializes a vector of size n with all elements set to zero. Then, it reads in n-1 integers from the input, and for each of them, it sets the corresponding element in the vector to 1.
