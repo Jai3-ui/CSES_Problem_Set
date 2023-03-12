@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Approach
 
 This code implements an algorithm to find the missing number from an array of size n-1, which contains all the integers from 1 to n except for one.
@@ -13,3 +14,20 @@ The program will create a vector with the following values:
             0 0 1 0 1
 Then, it will loop through the vector and find the first 0, which is at index 1. 
 Adding 1 to this index gives us the missing number, which is 3.
+=======
+Approach 
+
+This code implements an algorithm to find the missing number from an array of size n-1, which contains all the integers from 1 to n except for one.
+
+The approach is based on the idea of marking visited elements in the array. To do this, the program initializes a vector of size n with all elements set to zero. Then, it reads in n-1 integers from the input, and for each of them, it sets the corresponding element in the vector to 1.
+
+Finally, the program loops through the vector and finds the first element that is still 0. The index of this element plus 1 is the missing number, which is printed to the console.
+
+For example, if the input is:
+            5
+            1 2 4 5
+The program will create a vector with the following values:
+            0 0 1 0 1
+Then, it will loop through the vector and find the first 0, which is at index 1. 
+Adding 1 to this index gives us the missing number, which is 3.
+>>>>>>> 17524f6a78c7039a3aafd5897c779f2353689561
